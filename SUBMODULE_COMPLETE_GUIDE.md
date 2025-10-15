@@ -86,7 +86,7 @@ github-workflow-template/
 **方式 A - 使用自動化腳本（推薦）**:
 ```bash
 # 1. 添加 submodule
-git submodule add git@github.com:ylchen1805/Simple-Workflow.git
+git submodule add git@github.com:ylchen1805/Simple-Workflow.git .github-workflow
 
 # 2. 執行設置
 ./.github-workflow/scripts/setup.sh
@@ -100,7 +100,7 @@ git push
 **方式 B - 手動設置**:
 ```bash
 # 1. 添加 submodule
-git submodule add git@github.com:ylchen1805/Simple-Workflow.git
+git submodule add git@github.com:ylchen1805/Simple-Workflow.git .github-workflow
 
 # 2. 複製檔案（選擇版本）
 mkdir -p .github/workflows
